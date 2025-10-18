@@ -1,0 +1,33 @@
+.summer{
+    margin: 80px auto;
+    width: 90%;
+    text-align: center;
+}
+
+.gallery{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+}
+
+.gallery img{
+  justify-content: space-between;
+  width: 300px; 
+  height: 300px;
+  object-fit: cover;
+  border-radius: 10px;
+  padding: 5px;
+  margin-bottom: 20px;
+}
+
+@media (max-width: 800px){
+    .gallery{
+        justify-content: center;
+    }
+    .gallery img{
+        width: 48%;
+        margin: 0 1% 25px 1%;
+    }
+}

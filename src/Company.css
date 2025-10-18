@@ -1,0 +1,57 @@
+.company{
+    width: 115%;
+    min-height: 100vh;
+    background: linear-gradient(rgba(8,0,58,0.7),rgba(8,0,58,0.7)), url('../src/airplane1.png');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    padding: 20px;
+}
+
+.company-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    max-width: 800px;
+}
+
+.company-text h1{
+    font-size: 60px;
+    font-weight: 800px;
+}
+
+.company-text p{
+    max-width: 700px;
+    margin: 10px auto 20px;
+    line-height: 1.4;
+}
+
+@media (max-width: 850px){
+    .company{
+        min-height: 80vh;
+    }
+    .company-text h1{
+        font-size: 40px;
+    }
+}
+
+@media (max-width: 650px){
+    .company-text h1{
+        font-size: 30px;
+        max-width: 400px;
+        margin: auto;
+    }
+    .company-text p{
+        font-size: 14px;
+        margin: 15px auto 30px;
+    }
+}
+
+
