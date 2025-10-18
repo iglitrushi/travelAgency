@@ -1,8 +1,8 @@
 import './Cities.css'
 
-import barcelona from '../src/assets/barcelona.png'
-import paris from '../src/assets/paris.png'
-import prague from '../src/assets/prague.png'
+import barcelona from './assets/barcelona.png'
+import paris from './assets/paris.png';
+import prague from './assets/prague.png'
 
 const Cities = () => {
   return (

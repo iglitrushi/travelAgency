@@ -1,5 +1,5 @@
 import './About.css'
-import plane1 from '../../my-project/src/assets/plane1.png'; 
+import plane1 from './assets/plane1.png'; 
 
 
 

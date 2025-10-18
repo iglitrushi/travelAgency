@@ -26,7 +26,7 @@ const App = () => {
         <Footer />
       </div>
 
-      {/* Video at the bottom */}
+     
       <VideoPlayes />
     </div>
   );
