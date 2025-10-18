@@ -1,6 +1,6 @@
 import './Cities.css'
 
-import barcelona from '../../my-project/src/barcelona.png'
+import barcelona from '../src/assets/barcelona.png'
 import paris from '../../my-project/src/paris.png'
 import prague from '../../my-project/src/prague.png'
 
