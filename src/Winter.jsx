@@ -1,10 +1,10 @@
 import { useRef, useState } from 'react';
 import './Winter.css';
-import next_arrow from './../../my-project/src/next-arrow.png';
-import back_arrow from './../../my-project/src/back-arrow.png';
-import estonia from './../../my-project/src/estonia.png';
-import canada from './../../my-project/src/canada.png';
-import newYork from './../../my-project/src/newYork.png';
+import next_arrow from '../src/assets/next-arrow.png';
+import back_arrow from '../src/assets/back-arrow.png';
+import estonia from '../src/assets/estonia.png';
+import canada from '../src/assets/canada.png';
+import newYork from '../src/assets/newYork.png';
 
 const Winter = () => {
   const slider = useRef();

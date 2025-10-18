@@ -1,9 +1,9 @@
 import React from 'react';
 import './Contact.css'
-import message from './../../my-project/src/message.png'
-import mail from './../../my-project/src/mail.png'
-import phone from './../../my-project/src/phone.png'
-import location from './../../my-project/src/location.png'
+import message from '../src/assets/message.png'
+import mail from '../src/assets/mail.png'
+import phone from '../src/assets/phone.png'
+import location from '../src/assets/location.png'
 const Contact = () => {
 
     const [result, setResult] = React.useState("");

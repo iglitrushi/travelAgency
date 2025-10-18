@@ -1,8 +1,8 @@
 import './Summer.css'
-import ksamil from '../../my-project/src/ksamil.png'
-import rio from '../../my-project/src/rio de janeiro.png'
-import sandiego from '../../my-project/src/san diego.png'
-import greekbeaches from '../../my-project/src/greekbeach.png'
+import ksamil from '../src/assets/ksamil.png'
+import rio from '../src/assets/rio de janeiro.png'
+import sandiego from '../src/assets/san diego.png'
+import greekbeaches from '../src/assets/greekbeach.png'
 const Summer = () => {
   return (
     <div className='summer' id='Summer'>
