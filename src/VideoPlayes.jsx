@@ -1,16 +1,23 @@
 
-import video from './planeVideo.mp4'
-import PropTypes from 'prop-types';
+import './VideoPlayers.css';
+import videoFile from './assets/planevd.mp4';
 
-const VideoPlayes = ({playState}) => {
+const VideoPlayes = () => {
   return (
-    <div className={`video-player ${playState? '': 'hide'}`}>
-        <video src={video} autoPlay muted controls></video>
+    <div className="video-player">
+      <video 
+        width="100%" 
+        height="300" 
+        controls 
+        autoPlay 
+        muted 
+        loop
+      >
+        <source src={videoFile} type="video/mp4" />
+        Your browser does not support the video tag.
+      </video>
     </div>
-  )
-}
-VideoPlayes.propTypes = {
-  playState: PropTypes.bool.isRequired,
+  );
 };
 
-export default VideoPlayes
+export default VideoPlayes;

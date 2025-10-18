@@ -11,8 +11,8 @@ const Winter = () => {
   const [tx, setTx] = useState(0);
 
   const slideForward = () => {
-    const totalSlides = slider.current.children.length; // Total number of slides
-    const maxTx = -(totalSlides - 1) * 25; // Calculate max translateX
+    const totalSlides = slider.current.children.length; 
+    const maxTx = -(totalSlides - 1) * 25; 
   
     if (tx > maxTx) {
       const newTx = tx - 25;
